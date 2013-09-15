@@ -16,7 +16,4 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
-$(call inherit-product, vendor/samsung/jf-common/jf-common-vendor-blobs.mk)
-PRODUCT_PACKAGES += \
-#    libalsa-intf
-
+$(call inherit-product, vendor/samsung/common/jf-common.mk)
